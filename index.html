@@ -44,7 +44,7 @@
             document.getElementById("live2dcanvas").style.height = '150px';
         } else if (typeof(device) === 'undefined') console.error('Cannot find current-device script.');
         loadScript("./live2d/script.js", function () {
-            loadlive2d("live2dcanvas", "https://github.com/15302490030/15302490030.github.io/blob/main/%E6%A8%A1%E5%9E%8B%E5%B0%8F%E7%8C%AB%E6%B5%8B%E8%AF%95/live2d/assets/haru01.model.json", 0.5);
+            loadlive2d("live2dcanvas", "./live2d/assets/haru01.model.json", 0.5);
         });
     })();
 </script>
